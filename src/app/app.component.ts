@@ -8,7 +8,7 @@ import { Discussion } from './discussion';
 })
 export class AppComponent {
   title = 'disscusion';
-  discussion: Discussion[] = [
+  discussions: Discussion[] = [
     new Discussion(1, "Java Quiz"),
     new Discussion(2, "Python Quiz"),
     new Discussion(3, "Javascript Quiz")
