@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Discussion } from './discussion';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'discusion';
+  title = 'disscusion';
+  discussion: Discussion[] = [
+    new Discussion(1, "Java Quiz"),
+    new Discussion(2, "Python Quiz"),
+    new Discussion(3, "Javascript Quiz")
+
+  ]
 }
